@@ -13,3 +13,7 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 
 #### Data we get
 ![image](https://user-images.githubusercontent.com/94193480/205491656-aff76e9e-698e-4d11-976d-d0f687fc6fea.png)
+
+#### Preprocessing
+- Extracting the density of pet household, animal hospital and pharmacy, animal shelter, animal death/euthanasia
+- 
