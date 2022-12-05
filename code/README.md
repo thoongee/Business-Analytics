@@ -1,4 +1,4 @@
-## Code we made..
+## Code we made
 1. Preprocessing
   - get # of household, # of pet household, animal shelter, animal death, animal hospital & pharmacy and their density for each dong (행정동)
   - result is preprocessing_data.xlsx
