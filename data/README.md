@@ -1,4 +1,4 @@
-## Data we made..
+## Data we made
 - basic_data
   - number of pet household
 - dong_size
