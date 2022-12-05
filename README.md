@@ -72,4 +72,4 @@ download all files and upload it on your colab notebook
 ### Environment
 [Google Colab notebook](https://colab.research.google.com/)
 
-#### Code_readme & Data_readme is in each folder !
+#### CODE readme & DATA readme is in code and data folder !
