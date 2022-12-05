@@ -8,13 +8,14 @@ TOPIC : A Proposal on Optimal Location Choice of animal burial facilities: Focus
 #### Problem
 - Demand for pet funerals is increasing, but supply is not available
 - Pet carcasses are classified as waste and it is illegal to bury them on land which is not their own land
-
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/94193480/205587112-56af8046-54e8-40d0-baca-07c02e94f923.png">
 #### Goal
 - Propose location in areas where animal burial faility's demand is expected to be high
 - High animal hospital, high euthanasia rates at animal shelters, and a large number of pet households will be the optimal area for establishing animal burial facilities
 
 #### Data we get
 ![image](https://user-images.githubusercontent.com/94193480/205491656-aff76e9e-698e-4d11-976d-d0f687fc6fea.png)
+
 
 #### ➡️ Step : Preprocessing -> EDA -> Clustering -> Classificaiton
 
