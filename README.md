@@ -1,5 +1,5 @@
 # Business-Analytics Term project
-A Proposal on Optimal Location Choice of animal burial facilities: Focusing on Seoul Area
+TOPIC : A Proposal on Optimal Location Choice of animal burial facilities: Focusing on Seoul Area
 
 
 ## Topic description
@@ -16,7 +16,7 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 #### Data we get
 ![image](https://user-images.githubusercontent.com/94193480/205491656-aff76e9e-698e-4d11-976d-d0f687fc6fea.png)
 
-#### (이모지)Step : Preprocessing -> EDA -> Clustering -> Classificaiton
+#### ➡️ Step : Preprocessing -> EDA -> Clustering -> Classificaiton
 
 ## Preprocessing & EDA
 #### Preprocessing
@@ -26,7 +26,7 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 #### EDA
 - Seeing relationship between each features using bar graph and line graph
 - Visualizing Seoul map to see how data distributed in Seoul
-<img src="[이미지주소.png](https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png)" width="300" height="300"/>
+<img src="https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png" width="300" height="300"/>
 
 ## Clustering
 #### Choose optimal clustering model
@@ -84,10 +84,8 @@ download all files and upload it on your colab notebook
   - merge basic_data, dong_size and calculate density of pet household
 - animal_hospitalpharmacy
   - merge animal hosiptal.xlsx and animal pharmacy.xlsx using excel file. And each file is downloaded from 'Seoul Open Data Plaza'
-- animal_hospitalpharmacy_result
-  - number of animal hospitals and pharmacies of each dong 
 - animal_hospitalpharmacy_result2
-  - change animal_hospitalpharamcy_result data's instance based on administartive 
+  - change from instance based on legal dong(법정동) to administartive dong (행정동) and count the number of animal hospitals and pharmacies of each dong
 - animal_shelter 
   - number of animal shelter, animal death/euthanasia
 - preprocessing_data
