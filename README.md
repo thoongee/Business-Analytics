@@ -26,7 +26,7 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 #### EDA
 - Seeing relationship between each features using bar graph and line graph
 - Visualizing Seoul map to see how data distributed in Seoul
-![image](https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png)
+<img src="[이미지주소.png](https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png)" width="200" height="200"/>
 
 ## Clustering
 #### Choose optimal clustering model
@@ -61,25 +61,40 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 - We cannot reflect the various factors related to the surrounding environment encountered when approaching the funeral facility
 - We did not consider the budget issues and project performance capabilities of districts of Seoul
 
-## Code we made..
-1. Preprocessing: result is preprocessing_data.xlsx
+## Getting Started
+download all files and upload it on your colab notebook
+
+### Environment
+[Google Colab notebook](https://colab.research.google.com/)
+
+### Code we made..
+1. Preprocessing : result is preprocessing_data.xlsx
 2. EDA : see what preprocessing data looks like
 3. Clustering : Kmeans, GMM, Hierarchical clustering, Kmedoids, calculate silhoutte coefficient
-4. Make_training_dataset: make target column using Kmeans clustering & drop some 
-5. Make_test_dataset: make test dataset which each row is gu
+4. Make_training_dataset : make target column using Kmeans clustering & drop some 
+5. Make_test_dataset : make test dataset which each row is gu
 6. Classification : find proper district to build animal burial facility
 
-## Data we made..
-- basic_data : number of pet household
-- dong_size : size of each dong
-- animal_household : merge basic_data, dong_size and calculate density of pet household
-- animal_hospitalpharmacy : merge animal hosiptal.xlsx and animal pharmacy.xlsx using excel file. And each file is downloaded from 서울열린데이터광장.
-- animal_hospitalpharmacy_result : number of animal hospitals and pharmacies of each dong 
-- animal_hospitalpharmacy_result2 : change animal_hospitalpharamcy_result data's instance based on administartive 법정동 -> 행정동
-
-- animal_shelter : number of animal shelter동 별 유기동물 보호 현황 (인도, 입양분양, 폐사안락사 수)
-- preprocessing_data : result of preprocessing which have 서울시 동,가구원수,서울시 구,구별 가구수,   반려동물 비율,반려동물 가구수 구,반려동물 가구수 동,면적,   반려동물 가구밀도,   폐사안락사수, 보호소 수,보호소 밀도,폐사안락사 비율,동물병원약국개수,동물병원약국 밀도 columns
-
-- seoul_geo.json : using EDA to see map of seoul
-- train : train dataset for use in classificaiton
-- test : test dataset for use in classification
+### Data we made..
+- basic_data
+  - number of pet household
+- dong_size
+  - size of each dong
+- animal_household
+  - merge basic_data, dong_size and calculate density of pet household
+- animal_hospitalpharmacy
+  - merge animal hosiptal.xlsx and animal pharmacy.xlsx using excel file. And each file is downloaded from 'Seoul Open Data Plaza'
+- animal_hospitalpharmacy_result
+  - number of animal hospitals and pharmacies of each dong 
+- animal_hospitalpharmacy_result2
+  - change animal_hospitalpharamcy_result data's instance based on administartive 
+- animal_shelter 
+  - number of animal shelter, animal death/euthanasia
+- preprocessing_data
+  - result of preprocessing
+- seoul_geo.json
+  - using EDA to see map of seoul
+- train
+  - train dataset used in classificaiton
+- test
+  - test dataset used in classification
