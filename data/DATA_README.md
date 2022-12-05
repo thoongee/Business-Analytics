@@ -1,0 +1,21 @@
+## Data we made..
+- basic_data
+  - number of pet household
+- dong_size
+  - size of each dong
+- animal_household
+  - merge basic_data, dong_size and calculate density of pet household
+- animal_hospitalpharmacy
+  - merge animal hosiptal.xlsx and animal pharmacy.xlsx using excel file. And each file is downloaded from 'Seoul Open Data Plaza'
+- animal_hospitalpharmacy_result2
+  - change from instance based on legal dong(법정동) to administartive dong (행정동) and count the number of animal hospitals and pharmacies of each dong
+- animal_shelter 
+  - number of animal shelter, animal death/euthanasia
+- preprocessing_data
+  - result of preprocessing
+- seoul_geo.json
+  - using EDA to see map of seoul
+- train
+  - train dataset used in classificaiton
+- test
+  - test dataset used in classification
