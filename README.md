@@ -70,32 +70,4 @@ download all files and upload it on your colab notebook
 ### Environment
 [Google Colab notebook](https://colab.research.google.com/)
 
-### Code we made..
-1. Preprocessing : result is preprocessing_data.xlsx
-2. EDA : see what preprocessing data looks like
-3. Clustering : Kmeans, GMM, Hierarchical clustering, Kmedoids, calculate silhoutte coefficient
-4. Make_training_dataset : make target column using Kmeans clustering & drop some 
-5. Make_test_dataset : make test dataset which each row is gu
-6. Classification : find proper district to build animal burial facility
-
-### Data we made..
-- basic_data
-  - number of pet household
-- dong_size
-  - size of each dong
-- animal_household
-  - merge basic_data, dong_size and calculate density of pet household
-- animal_hospitalpharmacy
-  - merge animal hosiptal.xlsx and animal pharmacy.xlsx using excel file. And each file is downloaded from 'Seoul Open Data Plaza'
-- animal_hospitalpharmacy_result2
-  - change from instance based on legal dong(법정동) to administartive dong (행정동) and count the number of animal hospitals and pharmacies of each dong
-- animal_shelter 
-  - number of animal shelter, animal death/euthanasia
-- preprocessing_data
-  - result of preprocessing
-- seoul_geo.json
-  - using EDA to see map of seoul
-- train
-  - train dataset used in classificaiton
-- test
-  - test dataset used in classification
+### Code_readme & Data_readme is in each folder !
