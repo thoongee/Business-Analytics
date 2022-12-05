@@ -1,18 +1,26 @@
-# Business-Analytics Term project
-A Proposal on Optimal Location Choice of animal burial facilities: Focusing on Seoul Area
+# A Proposal on Optimal Location Choice of animal burial facilities: Focusing on Seoul Area
 
-
-## Topic description
+## Project description
 #### Problem
 - Demand for pet funerals is increasing, but supply is not available
 - Pet carcasses are classified as waste and it is illegal to bury them on land which is not their own land
 
 #### Goal
 - Propose location in areas where animal burial faility's demand is expected to be high
-- High animal hospital, high euthanasia rates at animal shelters, and a large number of pet households will be the optimal area for establishing animal burial facilities
 
-#### Data we get
-![image](https://user-images.githubusercontent.com/94193480/205491656-aff76e9e-698e-4d11-976d-d0f687fc6fea.png)
+#### Result
+- Density of animal hospitals & pharmacies is a feature that greatly affects the installation of funeral facilities
+- Optimal districts(gu) are Seongbuk-gu, Dongaemun-gu, Mapo-gu, Jung-gu, Gwangjin-gu, Dongjak-gu, Gwanak-gu, Songpa-gu
+
+## Getting Started
+Please download all files, and upload .ipynb files in your colab notebook
+#### Environment
+Google Colab notebook
+
+
+
+
+
 
 #### Preprocessing
 - Extracting the density of pet household, animal hospital and pharmacy, animal shelter, animal death/euthanasia
@@ -28,7 +36,12 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 5. Make_test_dataset: make test dataset which each row is gu
 6. Classification : find proper district to build animal burial facility
 
-## Data we made..
+
+## Data
+#### Data we get
+![image](https://user-images.githubusercontent.com/94193480/205491656-aff76e9e-698e-4d11-976d-d0f687fc6fea.png)
+
+#### Data we made..
 - basic_data : number of 동 별 반려가구수
 - dong_size : 동 면적
 - animal_household : basic_data + dong_size + 반려가구 밀도
