@@ -1,6 +1,0 @@
-- Preprocessing: result is preprocessing_data.xlsx
-- EDA
-- Clustering : Kmeans, GMM, Hierarchical clustering, Kmedoids, calculate silhoutte coefficient
-- Make_training_dataset: make target column using Kmeans clustering & drop some 
-- Make_test_dataset: make test dataset which each row is gu
-- Classification : find proper district to build animal burial facility
