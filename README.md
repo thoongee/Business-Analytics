@@ -16,12 +16,12 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 #### Data we get
 ![image](https://user-images.githubusercontent.com/94193480/205491656-aff76e9e-698e-4d11-976d-d0f687fc6fea.png)
 
-#### Step : Preprocessing -> EDA -> Clustering -> Classificaiton
+#### (이모지)Step : Preprocessing -> EDA -> Clustering -> Classificaiton
 
 ## Preprocessing & EDA
 #### Preprocessing
 - Extracting the density of pet household, animal hospital and pharmacy, animal shelter, animal death/euthanasia
-- Making each row of preprocessing data represents administrative dong (행정동)
+- Making each instance of preprocessing data represents administrative dong (행정동)
 
 #### EDA
 - Seeing relationship between each features using bar graph and line graph
@@ -33,7 +33,23 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 - K-means have highest sillhouette score than GMM, Hierarchical clustering and K-medoids
 
 #### Make target label
+- Clusters with average of all feature values >=0 is set to target as 1
+- 1 == good to install an animal burial facility
+
+## Classification
+
+#### Purpose : Predict good district to install animal burial facility
+
+#### Make train & test dataset
+- trian dataset : Drop variables of VIF >= 10
+- test dataset : Each instance is distirct of seoul
 - 
+#### Find best model & best parameter
+- Decision Tree's f1 score is higher than Logistic regression, Random Forest, KNN
+- best parameter
+  - criterion : gini
+  - max_depth : 6
+  - min_sampels_leaf : 4
 
 ## Result
 
@@ -42,7 +58,8 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 - Optimal districts(gu) are Seongbuk-gu, Dongaemun-gu, Mapo-gu, Jung-gu, Gwangjin-gu, Dongjak-gu, Gwanak-gu, Songpa-gu
 
 ## Limitation
-
+- We cannot reflect the various factors related to the surrounding environment encountered when approaching the funeral facility
+- We did not consider the budget issues and project performance capabilities of districts of Seoul
 
 ## Code we made..
 1. Preprocessing: result is preprocessing_data.xlsx
@@ -57,8 +74,8 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 - dong_size : size of each dong
 - animal_household : merge basic_data, dong_size and calculate density of pet household
 - animal_hospitalpharmacy : merge animal hosiptal.xlsx and animal pharmacy.xlsx using excel file. And each file is downloaded from 서울열린데이터광장.
-- animal_hospitalpharmacy_result : 각 동 별 동물병원약국 개수 
-- animal_hospitalpharmacy_result2 : 법정동 -> 행정동
+- animal_hospitalpharmacy_result : number of animal hospitals and pharmacies of each dong 
+- animal_hospitalpharmacy_result2 : change animal_hospitalpharamcy_result data's instance based on administartive 법정동 -> 행정동
 
 - animal_shelter : number of animal shelter동 별 유기동물 보호 현황 (인도, 입양분양, 폐사안락사 수)
 - preprocessing_data : result of preprocessing which have 서울시 동,가구원수,서울시 구,구별 가구수,   반려동물 비율,반려동물 가구수 구,반려동물 가구수 동,면적,   반려동물 가구밀도,   폐사안락사수, 보호소 수,보호소 밀도,폐사안락사 비율,동물병원약국개수,동물병원약국 밀도 columns
