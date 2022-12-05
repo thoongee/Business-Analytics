@@ -45,7 +45,6 @@ TOPIC : A Proposal on Optimal Location Choice of animal burial facilities: Focus
 #### Make train & test dataset
 - trian dataset : Drop variables of VIF >= 10
 - test dataset : Each instance is distirct of seoul
-- 
 #### Find best model & best parameter
 - Decision Tree's f1 score is higher than Logistic regression, Random Forest, KNN
 - best parameter
@@ -58,6 +57,8 @@ TOPIC : A Proposal on Optimal Location Choice of animal burial facilities: Focus
 #### Solutions of the problem
 - Density of animal hospitals & pharmacies is a feature that greatly affects the installation of funeral facilities
 - Optimal districts(gu) are Seongbuk-gu, Dongaemun-gu, Mapo-gu, Jung-gu, Gwangjin-gu, Dongjak-gu, Gwanak-gu, Songpa-gu
+
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/94193480/205582976-c4b4f67e-5eb1-428f-8e69-e6d8c4077f64.png"> <img width="350" alt="image" src="https://user-images.githubusercontent.com/94193480/205583005-fadbcdd2-06fa-4bf1-b05e-2a5f75d36de9.png">
 
 ## Limitation
 - We cannot reflect the various factors related to the surrounding environment encountered when approaching the funeral facility
