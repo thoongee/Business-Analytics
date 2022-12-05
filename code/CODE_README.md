@@ -1,7 +1,7 @@
 ## Code we made..
 1. Preprocessing
-  - get # of household, # of pet household, animal shelter, animal death, animal hospital & pharmacy and their density for each dong (행정동)
-  - result is preprocessing_data.xlsx
+  ** get # of household, # of pet household, animal shelter, animal death, animal hospital & pharmacy and their density for each dong (행정동)
+  ** result is preprocessing_data.xlsx
 2. EDA 
   - see what preprocessing data looks like
 3. Clustering
