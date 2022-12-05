@@ -26,7 +26,7 @@ TOPIC : A Proposal on Optimal Location Choice of animal burial facilities: Focus
 #### EDA
 - Seeing distribution of each features using bar graph and line graph
 - Visualizing Seoul map to see how data distributed in Seoul
-<img src="https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png" width="300" height="300"/><img width="300" alt="image" src="https://user-images.githubusercontent.com/94193480/205582257-bade1d15-db17-4397-8f36-607a987e3eb7.png">
+<img src="https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png" width="300" height="300"/><img width="400" alt="image" src="https://user-images.githubusercontent.com/94193480/205582257-bade1d15-db17-4397-8f36-607a987e3eb7.png">
 
 
 ## Clustering
