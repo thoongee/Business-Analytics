@@ -26,7 +26,7 @@ A Proposal on Optimal Location Choice of animal burial facilities: Focusing on S
 #### EDA
 - Seeing relationship between each features using bar graph and line graph
 - Visualizing Seoul map to see how data distributed in Seoul
-<img src="[이미지주소.png](https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png)" width="200" height="200"/>
+<img src="[이미지주소.png](https://user-images.githubusercontent.com/94193480/205539829-3f95345d-5c9a-4c02-9bb5-96948c0af919.png)" width="300" height="300"/>
 
 ## Clustering
 #### Choose optimal clustering model
